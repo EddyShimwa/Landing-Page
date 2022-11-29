@@ -1,4 +1,89 @@
 
+.nav-list,
+.log-in {
+  display: none;
+}
+
+#HOME {
+  background-color: hsl(353, 100%, 62%);
+  height: 600px;
+  width: 100%;
+  border-radius: 0 0 0 60px;
+  background-image: url(/IMAGES/bg-pattern-intro-mobile.svg);
+  background-position: center;
+}
+
+.mobile-nav {
+  display: flex;
+  float: right;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.mobile-nav img {
+  padding: 40px;
+}
+
+.Title {
+  padding: 180px 30px 40px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 35px;
+}
+
+#start {
+  padding-top: 100px;
+}
+
+#start span {
+  border: 1px solid rgb(248, 244, 244);
+  padding: 16px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+#start #left-span {
+  background-color: aliceblue;
+}
+
+.page-two {
+  background-color: hsl(240, 58%, 17%);
+}
+
+.first-page-title h2 {
+  text-align: center;
+}
+.first-page-details {
+  padding: 60px;
+  text-align: center;
+}
+
+.page-three {
+  padding: 60px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 0 50px 0 0;
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+
+
+
+
+
   /* FOR DESKTOP DEVICES  */
   #HOME {
     background-image: url(/IMAGES/bg-pattern-intro-desktop.svg);
